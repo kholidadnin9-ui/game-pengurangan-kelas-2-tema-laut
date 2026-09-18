@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/game-pengurangan-kelas-2-tema-laut/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
